@@ -1,0 +1,12 @@
+{
+  "func_name": "find_dessert",
+  "code_file": "example/dessert.py",
+  "func_def_line": 10,
+  "input_types": [
+    "string"
+  ],
+  "API_param": [
+    "image_path"
+  ],
+  "workspace": "example/"
+}

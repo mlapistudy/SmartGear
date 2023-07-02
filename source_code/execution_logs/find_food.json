@@ -1,0 +1,53 @@
+{
+    "conditions": {
+        "classify_text": [
+            [
+                ""
+            ],
+            [
+                "food"
+            ]
+        ]
+    },
+    "exact_match": false,
+    "exclusive": true,
+    "control_flow": [
+        {
+            "line_no": -1,
+            "if_lines": [],
+            "indent": -1,
+            "code": "",
+            "ml_related": false
+        },
+        {
+            "line_no": 28,
+            "if_lines": [
+                {
+                    "line_no": 29,
+                    "indent": 4,
+                    "code": "    if 'food' in category__name:",
+                    "then_line": 30,
+                    "ml_related": true
+                }
+            ],
+            "indent": 2,
+            "code": "  for category in categories:",
+            "ml_related": true
+        }
+    ],
+    "func_info": {
+        "func_name": "find_food",
+        "code_file": "control_flow_analysis/example/food.py",
+        "func_def_line": 24,
+        "input_types": [
+            "string"
+        ],
+        "API_param": [
+            "text"
+        ],
+        "workspace": "control_flow_analysis/example",
+        "input_param": [
+            "text"
+        ]
+    }
+}

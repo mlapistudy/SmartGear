@@ -1,0 +1,144 @@
+{
+    "for_lines": [
+        {
+            "line_no": -1,
+            "if_lines": [],
+            "indent": -1,
+            "code": ""
+        },
+        {
+            "line_no": 22,
+            "if_lines": [
+                {
+                    "line_no": 23,
+                    "indent": 4,
+                    "code": "    if 'food' in category__name:",
+                    "then_line": 24
+                }
+            ],
+            "indent": 2,
+            "code": "  for category in categories:"
+        }
+    ],
+    "exe": [
+        {
+            "ML_input": {
+                "classify_text": {
+                    "keyword": "",
+                    "description": [
+                        "classify_text",
+                        "any kind of text"
+                    ]
+                }
+            },
+            "path": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                22,
+                23,
+                22,
+                23,
+                22,
+                25
+            ]
+        },
+        {
+            "ML_input": {
+                "classify_text": {
+                    "keyword": "food",
+                    "description": [
+                        "classify_text",
+                        "text of [food]"
+                    ]
+                }
+            },
+            "path": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+            ]
+        }
+    ],
+    "exe_vary": [
+        {
+            "ML_input": {
+                "classify_text": {
+                    "keyword": "",
+                    "description": [
+                        "classify_text",
+                        "any kind of text"
+                    ]
+                }
+            },
+            "path": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                22,
+                23,
+                22,
+                23,
+                22,
+                25
+            ],
+            "vary_vars": []
+        },
+        {
+            "ML_input": {
+                "classify_text": {
+                    "keyword": "food",
+                    "description": [
+                        "classify_text",
+                        "text of [food]"
+                    ]
+                }
+            },
+            "path": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+            ],
+            "vary_vars": [
+                [
+                    "category__name",
+                    "food__varying!@#"
+                ]
+            ]
+        }
+    ]
+}

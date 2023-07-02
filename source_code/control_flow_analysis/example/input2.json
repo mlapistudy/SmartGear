@@ -1,0 +1,12 @@
+{
+  "func_name": "find_food",
+  "code_file": "example/food.py",
+  "func_def_line": 24,
+  "input_types": [
+    "string"
+  ],
+  "API_param": [
+    "text"
+  ],
+  "workspace": "example/"
+}

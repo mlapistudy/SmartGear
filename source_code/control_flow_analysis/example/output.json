@@ -1,0 +1,53 @@
+{
+    "conditions": {
+        "label_detection": [
+            [
+                ""
+            ],
+            [
+                "dessert"
+            ]
+        ]
+    },
+    "exact_match": false,
+    "exclusive": true,
+    "control_flow": [
+        {
+            "line_no": -1,
+            "if_lines": [],
+            "indent": -1,
+            "code": "",
+            "ml_related": false
+        },
+        {
+            "line_no": 17,
+            "if_lines": [
+                {
+                    "line_no": 18,
+                    "indent": 4,
+                    "code": "    if \"dessert\" in l__description:",
+                    "then_line": 19,
+                    "ml_related": true
+                }
+            ],
+            "indent": 2,
+            "code": "  for l in labels:",
+            "ml_related": true
+        }
+    ],
+    "func_info": {
+        "func_name": "find_dessert",
+        "code_file": "control_flow_analysis/example/dessert.py",
+        "func_def_line": 10,
+        "input_types": [
+            "string"
+        ],
+        "API_param": [
+            "image_path"
+        ],
+        "workspace": "control_flow_analysis/example",
+        "input_param": [
+            "image_path"
+        ]
+    }
+}
