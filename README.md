@@ -2,6 +2,8 @@
 
 This is the artifact for our OOPSLA'23 paper “Run-Time Prevention of Software Integration Failures of Machine Learning APIs)”. We hope this artifact can motivate and help future research to further tackle ML software defects. This artifact aims for Available Badge.
 
+The artifact is archived on Zenodo at https://zenodo.org/record/8106520.
+
 
 ## What's inside the artifact:
 
